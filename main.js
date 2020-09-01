@@ -8,10 +8,12 @@ let author = document.getElementById('author')
     .then(data => {
         display.innerHTML = data.content;
         author.innerHTML = data.author;
-    });
-    
-   
 
+
+    }
+    );
+    
+  
 
 }
 
