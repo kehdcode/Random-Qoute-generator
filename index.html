@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Random Qoute Generator</title>
 </head>
 <body>
@@ -14,11 +15,13 @@
 
             </form>
             <div class="btn">
-                <button class="btn-click">Generate Qoute</button>
+                <button class="btn-click" onclick="searchQoute()">Generate Qoute</button>
             </div>
         </div>
-        <div class="qoute-display"></div>
+        <div class="qoute-display">
+            <p id="display"> </p>
+        </div>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>

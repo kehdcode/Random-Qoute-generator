@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    box-sizing: border-box;
+
+}
+div.container {
+    width: 50%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+div.form-holder {
+    
+    width: 100%;
+
+}
+.btn-click {
+    margin-top: 10px;
+    margin-left: 25px;
+}
